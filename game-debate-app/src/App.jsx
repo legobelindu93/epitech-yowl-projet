@@ -17,10 +17,10 @@ const Placeholder = ({ title }) => (
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-indigo-500/30">
+    <div className="min-h-screen text-slate-100 font-sans selection:bg-indigo-500/30">
       <Navbar />
 
-      <main>
+      <main className="pt-32">
         <Routes>
           <Route path="/" element={<GamePage />} />
           <Route path="/chat" element={<ChatPage />} />

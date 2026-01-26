@@ -7,8 +7,8 @@ const HeroSection = ({ game }) => {
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <img src={game.imageUrl} alt={game.title} className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-game-dark via-game-dark/80 to-transparent" />
-                <div className="absolute inset-0 backdrop-blur-[2px] bg-game-dark/40" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#13315C] via-[#0B2545]/80 to-transparent" />
+                <div className="absolute inset-0 backdrop-blur-[2px] bg-[#0B2545]/30" />
             </div>
 
             <div className="relative z-10 container mx-auto px-4 pt-20 flex flex-col items-center text-center">
